@@ -1,0 +1,23 @@
+{
+  "name": "curriculumvitae",
+  "version": "1.0.0",
+  "description": "Crear un proyecto desde cero con React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NSpooky/curriculumVitae.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NSpooky/curriculumVitae/issues"
+  },
+  "homepage": "https://github.com/NSpooky/curriculumVitae#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
