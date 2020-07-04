@@ -37,17 +37,19 @@ const AboutProfession = styled.p`
   letter-spacing: 1.6px;
   font-weight: 400px;
   color: #C1185B;
-`
+`;
+
 const AboutBio = styled.p`
   color: #757575;
   font-size: 1em;
   font-weight: 300;
-`
+`;
+
 const AboutLocation = styled.p`
   color: #757575;
   font-size: 1em;
   font-weight: 400;
-`
+`;
 
 
 
