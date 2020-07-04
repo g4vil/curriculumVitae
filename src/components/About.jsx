@@ -20,6 +20,37 @@ const AboutImg = styled.img`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 `
 
+const AboutName = styled.div`
+  text-align: center;
+`
+
+const AboutH2 = styled.h2`
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  margin: .5em 0 0;
+  color: #C2185B;
+`
+
+const AboutProfession = styled.p`
+  margin: .2em 0 1em 0;
+  letter-spacing: 1.6px;
+  font-weight: 400px;
+  color: #C1185B;
+`
+const AboutBio = styled.p`
+  color: #757575;
+  font-size: 1em;
+  font-weight: 300;
+`
+const AboutLocation = styled.p`
+  color: #757575;
+  font-size: 1em;
+  font-weight: 400;
+`
+
+
+
 const About = ({avatar, name, profession, bio, address, social}) => (
   <AboutStyle>
     <div className="About-container">
@@ -28,18 +59,18 @@ const About = ({avatar, name, profession, bio, address, social}) => (
           <AboutImg src={avatar} alt={name}/>
         </figure>
       </AboutAvatar>
-      <div className="About-name">
-        <h2>{name}</h2>
-      </div>
-      <div className="About-profession">
+      <AboutName>
+        <AboutH2>{name}</AboutH2>
+      </AboutName>
+      <AboutProfession>
         <p>{profession}</p>
-      </div>
-      <div className="About-desc">
+      </AboutProfession>
+      <AboutBio>
         <p>{bio}</p>
-      </div>
-      <div className="About-location">
+      </AboutBio>
+      <AboutLocation>
         <p>{address}</p>
-      </div>
+      </AboutLocation>
       <div className="About-social">
           <Social social = {social} />
       </div>
